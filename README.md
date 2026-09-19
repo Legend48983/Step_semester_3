@@ -23,4 +23,4 @@ Solutions are separated by problem because Problems 1–5 intentionally reuse cl
 - Character-based referral-code validation
 - Null-safe batch processing and weekly check-ins
 
-The five problems were compiled independently, and the assignment examples were checked against the implementations.
+The five problems were reviewed independently against the assignment requirements and supplied examples.
