@@ -2,6 +2,19 @@ import java.util.Scanner;
 
 public class NumberArrayOperations {
 
+    // Sort the array using bubble sort
+    public static void sortArray(int[] numbers) {
+        for (int i = 0; i < numbers.length - 1; i++) {
+            for (int j = 0; j < numbers.length - 1 - i; j++) {
+                if (numbers[j] > numbers[j + 1]) {
+                    int temp = numbers[j];
+                    numbers[j] = numbers[j + 1];
+                    numbers[j + 1] = temp;
+                }
+            }
+        }
+    }
+
     // Find second lowest and second highest without built-in functions
     public static void findSecondValues(int[] numbers) {
         int lowest = numbers[0];
@@ -53,6 +66,13 @@ public class NumberArrayOperations {
         }
 
         System.out.println("\nOriginal Array:");
+        for (int number : numbers) {
+            System.out.print(number + " ");
+        }
+
+        sortArray(numbers);
+
+        System.out.println("\n\nSorted Array:");
         for (int number : numbers) {
             System.out.print(number + " ");
         }
