@@ -1,21 +1,25 @@
 # Week 2 - Data Structures and GitHub Integration
 
-This folder contains the Week 2 Java assignment.
+## Submission
+- **Java program:** `NumberArrayOperations.java`
+- **Code screenshot:** `01_Code_Screenshot.svg`
+- **Execution screenshot:** `02_Execution_Screenshot.svg`
+- **Git/version-control screenshot:** `03_Git_Version_Control_Screenshot.svg`
 
-## Requirements completed
-- Read 5 different numbers into an array.
-- Sort the array using a basic sorting algorithm (bubble sort).
-- Find the second highest and second lowest values without built-in sorting/min/max functions.
-- Use Git branches for different stages of the code.
-- Merge the branches into `main`.
+## Requirements
+1. Accept 5 different numbers and store them in an array.
+2. Sort the array using bubble sort.
+3. Find the second highest and second lowest without built-in sorting/min/max functions.
+4. Use Git branches for different versions.
+5. Merge the branches into `main`.
 
-## Program
-`NumberArrayOperations.java`
+## Git branches
+- `main`
+- `array-operations`
+- `sorting-logic`
 
-Example input:
-45, 12, 78, 34, 56
+Both feature branches were merged into `main`.
 
-Example output:
-- Sorted array: 12 34 45 56 78
-- Second lowest: 34
-- Second highest: 56
+## Pull requests
+- PR #1: https://github.com/Legend48983/Step_semester_3/pull/1
+- PR #2: https://github.com/Legend48983/Step_semester_3/pull/2
