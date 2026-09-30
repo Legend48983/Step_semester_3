@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760">
+<rect width="1200" height="760" fill="white"/>
+<style>text{font-family:Arial;font-size:18px;fill:#111}.head{font-size:24px;font-weight:bold}</style>
+<rect x="50" y="60" width="330" height="280" fill="white" stroke="black" stroke-width="3"/>
+<text x="70" y="95" class="head">Author</text><line x1="50" y1="115" x2="380" y2="115" stroke="black"/>
+<text x="70" y="150">name : String</text><text x="70" y="180">numberOfBooksWritten : int</text><text x="70" y="210">bio : String</text>
+<text x="70" y="255">displayBio()</text><text x="70" y="285">getName()</text>
+<rect x="480" y="60" width="400" height="340" fill="white" stroke="black" stroke-width="3"/>
+<text x="500" y="95" class="head">Book</text><line x1="480" y1="115" x2="880" y2="115" stroke="black"/>
+<text x="500" y="150">title : String</text><text x="500" y="180">author : Author</text><text x="500" y="210">publicationYear : int</text><text x="500" y="240">available : boolean</text>
+<text x="500" y="285">displayDetails()</text><text x="500" y="315">checkAvailability()</text><text x="500" y="345">borrowBook()</text><text x="500" y="375">returnBook()</text>
+<rect x="270" y="500" width="600" height="220" fill="white" stroke="black" stroke-width="3"/>
+<text x="290" y="535" class="head">Library</text><line x1="270" y1="555" x2="870" y2="555" stroke="black"/>
+<text x="290" y="590">books : Book[]</text><text x="290" y="620">bookCount : int</text>
+<text x="290" y="660">addBook()   borrowBook()   returnBook()</text><text x="290" y="690">searchByTitle()   searchByAuthor()</text>
+<line x1="380" y1="200" x2="480" y2="200" stroke="black" stroke-width="3"/><text x="395" y="185">uses</text>
+<line x1="680" y1="400" x2="570" y2="500" stroke="black" stroke-width="3"/><text x="635" y="455">contains</text>
+</svg>
