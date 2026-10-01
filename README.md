@@ -24,3 +24,15 @@ Solutions are separated by problem because Problems 1–5 intentionally reuse cl
 - Null-safe batch processing and weekly check-ins
 
 The five problems were reviewed independently against the assignment requirements and supplied examples.
+
+## Week 7 — Category B: Abstraction & Interfaces
+
+- problem7/problem1/ — Morning Wake-Up Circuit (Ringable interface)
+- problem7/problem2/ — Gallery Description Cards (abstract ArtPiece)
+- problem7/problem3/ — Backyard Toolshed Routine (multilevel abstraction)
+- problem7/problem4/ — Digital Classroom Setup (abstract class + overloaded interface methods)
+- problem7/problem5/ — Skyline Delivery Fleet (abstract Drone + Trackable interface)
+
+### Week 7 specification note
+
+Problem 3 requires GardenTool.use() to be abstract while also requiring CuttingTool.use() to call super.use(). In Java, an abstract method cannot be invoked with super.use(). The implementation therefore uses a private base-message helper in CuttingTool so the required output and inheritance structure remain usable and compilable, while Pruner reuses CuttingTool.use() through super.use().
