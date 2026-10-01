@@ -1,0 +1,1 @@
+public interface NotificationChannel{String send(Student s,Notice n);}
