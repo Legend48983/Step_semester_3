@@ -36,3 +36,13 @@ The five problems were reviewed independently against the assignment requirement
 ### Week 7 specification note
 
 Problem 3 requires GardenTool.use() to be abstract while also requiring CuttingTool.use() to call super.use(). In Java, an abstract method cannot be invoked with super.use(). The implementation therefore uses a private base-message helper in CuttingTool so the required output and inheritance structure remain usable and compilable, while Pruner reuses CuttingTool.use() through super.use().
+
+## Week 8 — Category B: Coding Assignment
+
+- problem8/problem1/ — Hostel Laundry Queue
+- problem8/problem2/ — Assignment Submission Portal
+- problem8/problem3/ — Campus Premiere Ticket Counter
+- problem8/problem4/ — FitZone Membership Desk
+- problem8/problem5/ — Campus Notice Broadcaster
+
+The solutions use interfaces/abstract classes for extensible rules, encapsulate state changes inside domain classes, and follow the sample workflows and constraints in the Week 8 assignment.
