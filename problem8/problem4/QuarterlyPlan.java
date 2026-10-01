@@ -1,0 +1,1 @@
+public class QuarterlyPlan implements MembershipPlan{public String getName(){return "Quarterly";}public int getMonths(){return 3;}public double calculateFee(){return 2700;}}
