@@ -1,0 +1,1 @@
+public class EmailChannel implements NotificationChannel{public String send(Student s,Notice n){return "[Email → "+s.getName()+"] "+n.getTitle();}}
