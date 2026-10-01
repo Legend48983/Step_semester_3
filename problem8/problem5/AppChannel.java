@@ -1,0 +1,1 @@
+public class AppChannel implements NotificationChannel{public String send(Student s,Notice n){return "[App → "+s.getName()+"] "+n.getTitle();}}
