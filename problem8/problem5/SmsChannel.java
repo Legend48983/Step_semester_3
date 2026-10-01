@@ -1,0 +1,1 @@
+public class SmsChannel implements NotificationChannel{public String send(Student s,Notice n){return "[SMS → "+s.getName()+"] "+n.getTitle();}}
