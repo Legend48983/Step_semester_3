@@ -1,0 +1,1 @@
+public class Member{private final String name;public Member(String n){if(n==null||n.trim().isEmpty())throw new IllegalArgumentException();name=n;}public String getName(){return name;}}
