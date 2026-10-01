@@ -1,0 +1,1 @@
+public interface MembershipPlan{String getName();int getMonths();double calculateFee();}
