@@ -1,0 +1,1 @@
+public class AnnualPlan implements MembershipPlan{public String getName(){return "Annual";}public int getMonths(){return 12;}public double calculateFee(){return 9000;}}
