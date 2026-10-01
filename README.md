@@ -46,11 +46,3 @@ Problem 3 requires GardenTool.use() to be abstract while also requiring CuttingT
 - problem8/problem5/ — Campus Notice Broadcaster
 
 The solutions use interfaces/abstract classes for extensible rules, encapsulate state changes inside domain classes, and follow the sample workflows and constraints in the Week 8 assignment.
-
-## Week 4 Practice Problems
-
-- problem4/practice1/ — Library Book Cataloguing
-- problem4/practice2/ — Payroll Batch Bonus Round
-- problem4/practice3/ — Late Fees — Skip the On-Time Accounts
-- problem4/practice4/ — One-Time College Setup, Many Students
-- problem4/practice5/ — Account Batch Payments
